@@ -7,11 +7,17 @@ section {
 .btshopee:hover {
   background-color: #f34522;
 }
+.btshopee:focus {
+  background-color: #ee4d2d;
+}
 .btbukalapak {
   background-color: rgb(244, 60, 60);
 }
 .btbukalapak:hover {
   background-color: rgb(184, 30, 30);
+}
+.btbukalapak:focus {
+  background-color: rgb(244, 60, 60);
 }
 .btkontak {
   color: rgb(55, 55, 55);
