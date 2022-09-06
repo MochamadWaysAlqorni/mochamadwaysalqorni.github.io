@@ -227,9 +227,7 @@
       const btSend = document.querySelector('.btkirim');
       const btLoading = document.querySelector('.btkirimloading');
       const myAlert = document.querySelector('.papanalert');
-      const namaInput = document.getElementById('nama');
-      const emailInput = document.getElementById('email');
-      const pesanInput = document.getElementById('pesan');
+      const inputanForm = document.querySelectorAll('#nama,#email,#pesan'); //#untuk id, .untuk class
     
       form.addEventListener('submit', e => {
         e.preventDefault();
@@ -242,9 +240,9 @@
             btSend.classList.toggle('d-none');
             myAlert.classList.toggle('d-none');
             console.log('Success!', response);
-            namaInput.value='';
-            emailInput.value='';
-            pesanInput.value='';
+            inputanForm.forEach(input => {
+              input.value = '';
+            });
             //form.reset(); //cara lain reset form
 
           })
