@@ -1,5 +1,12 @@
+/* tag */
 section {
   padding-top: 5rem;
+}
+
+/* class */
+.heroku {
+  background-image: url("../assets/background/bg1.jpg");
+  padding-bottom: 3rem;
 }
 .btshopee {
   background-color: #ee4d2d;
@@ -22,7 +29,8 @@ section {
 .btkontak {
   color: rgb(55, 55, 55);
 }
+
+/* id */
 #about {
-  padding-top: 6rem;
-  padding-bottom: 1rem;
+  padding-top: 5rem;
 }
